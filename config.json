@@ -1,0 +1,23 @@
+
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql+pymysql://root:@localhost/DD_EVENTS",
+    "prod_uri": "mysql+pymysql://root:@localhost/DD_EVENTS",
+    "fb_url": "https://facebook.com/",
+    "ins_url": "https://instagram.com/",
+    "about_text": "We Dreamzday Event Company established in the year of 2017 have marked its presence as one of the latest growing event company.\n\nWe also offer Engagement ceremony, Birthday parties baby shower, sports and corporate events. We are able to win the trust of customers because of the quality of product and services offered by us. Various events undertaken by us as event organizers which has helped us to win their trust.\nCommitted to quality and innovation are form is counted among the rare companies that are managed professionally. Team of technical expert and creative team of professional is hired by us, which has added value to our execution of services. All over professional are highly skilled and aware of their duties and responsibility. We have hired our employees of adjusting their skills on numerous parameters and then assigned the task accordingly, so that the work would be completed without any flow\n\nQuality is something we never ignore and try our level best to maintain consistency is delivering it in a range",
+    "no_of_post": 5
+
+  }
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url(' {{ url_for('static', filename='img/purple.jpg') }} ')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>The Dreamzday Event Company</h1>
+                            <span class="subheading">We Create You Celebrate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+
+
+
+                    <!-- todo, fetch it from the databse -->
+                {% for post in posts %}
+
+                    	<div class="post-preview">
+                        	<a href="/post/{{post.slug}}">
+                            	<h2 class="post-title">{{post.Title}}</h2>
+                        	</a>
+                        	<p class="post-meta">
+                            	Posted by
+                            	<a href="#!">Admin</a>
+                            	on {{post.date}}
+                        	</p>
+                    	</div>
+                    	{{post.Story[0:10]}}...
+                    	<!-- Divider-->
+                    	<hr class="my-4" />
+                    	{% endfor %}
+</a></li>                    	
+
+
+
+            
+                    <!-- Pager-->
+                    
+            </div>
+        </div>
+        {% endblock %}
+        
